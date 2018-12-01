@@ -9,15 +9,9 @@
 </template>
 
 <script>
-
 import Color from 'color-js'
 
 export default {
-  data () {
-    return {
-      backgroundColor: new Color('#979797').toRGB()
-    }
-  },
   computed: {
     darkTextColor () {
       return {
