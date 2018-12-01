@@ -1,7 +1,7 @@
 <template>
     <section>
         <b-tabs>
-            <b-tab-item label="Table">
+            <b-tab-item label="Memories">
                 <b-table
                     :data="data"
                     :columns="columns"
@@ -39,7 +39,10 @@
                 { 'Entry_#': 2, 'topic_mem': 'Dog', 'Shard_mem': 'Yes', 'date': '2016-12-15 06:00:53', 'rating_mem': '😊 😊 😊' },
                 { 'Entry_#': 3, 'topic_mem': 'Break Up', 'Shard_mem': 'No', 'date': '2016-04-26 06:26:28', 'rating_mem': '😢' },
                 { 'Entry_#': 4, 'topic_mem': 'Sick', 'Shard_mem': 'No', 'date': '2016-04-10 10:28:46', 'rating_mem': '☹️ ☹️' },
-                { 'Entry_#': 5, 'topic_mem': 'Hawaii', 'Shard_mem': 'Yes', 'date': '2016-12-06 14:38:38', 'rating_mem': '🤩🤩🤩🤩🤩' }
+                { 'Entry_#': 5, 'topic_mem': 'Hawaii', 'Shard_mem': 'Yes', 'date': '2016-12-06 14:38:38', 'rating_mem': '🤩🤩🤩🤩🤩' },
+                { 'Entry_#': 6, 'topic_mem': 'Jazz Game', 'Shard_mem': 'Yes', 'date': '2016-12-15 06:00:53', 'rating_mem': '😊 😊 😊' },
+                { 'Entry_#': 7, 'topic_mem': 'Fall', 'Shard_mem': 'No', 'date': '2016-04-26 06:26:28', 'rating_mem': '😢' },
+                { 'Entry_#': 8, 'topic_mem': 'Bored', 'Shard_mem': 'No', 'date': '2016-04-10 10:28:46', 'rating_mem': '☹️ ☹️' },
             ]
 
             return {

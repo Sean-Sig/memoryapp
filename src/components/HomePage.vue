@@ -1,9 +1,6 @@
 <template>
   <div>
     <AddMemory :darkTextColor="darkTextColor"></AddMemory>
-    <p>
-      Homepage components go here
-    </p>
   </div>
 </template>
 
