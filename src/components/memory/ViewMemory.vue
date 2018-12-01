@@ -1,5 +1,12 @@
 <template>
     <section>
+      <b-field grouped position="is-right">
+        <p class="control">
+          <button class="button is-primary" @click="goAdd">
+            Add New  Entry
+          </button>
+        </p>
+      </b-field>
         <b-tabs>
             <b-tab-item label="Memories">
                 <b-table
@@ -74,6 +81,11 @@
                     }
                 ]
             }
+        },
+        methods: {
+          goAdd() {
+            this.$router.push('/');
+          }
         }
     }
 </script>

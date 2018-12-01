@@ -7,13 +7,15 @@
       </h1>
     </div>
   </div>
+
   <b-field grouped position="is-right">
     <p class="control">
-      <button class="button is-primary" @click="saveAlert">
-        Search
+      <button class="button is-primary" @click="goSearch">
+        View Memories
       </button>
     </p>
   </b-field>
+
   <div class="block">
     <h2 class="subtitle">
       Rate Your Memory
@@ -34,6 +36,7 @@
       Five
     </b-radio>
   </div>
+
   <p class="content">
     <b>Memory Rating:</b>
     {{ radio }}
@@ -44,7 +47,7 @@
   </b-field>
 
   <b-field label="Topic">
-    <b-input value="Kevin Garvey"></b-input>
+    <b-input placeholder="Topic..."></b-input>
   </b-field>
 
   <b-field label="Memory">
@@ -113,6 +116,9 @@ export default {
     addMemory() {
       this.memories.push({memory: this.memory})
       this.memory = '';
+    },
+    goSearch() {
+      this.$router.push('/memories');
     }
   }
 }
