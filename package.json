@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "buefy": "^0.6.2",
+    "color-js": "^1.0.4",
     "express": "^4.16.4",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^6.0.3",
     "serve-static": "^1.13.2",
     "vue": "^2.5.17",
-    "node-sass": "^4.10.0",
-    "sass-loader": "^6.0.3"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
