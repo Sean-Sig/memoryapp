@@ -45,6 +45,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background: #eeeeee;
 }
 </style>
 
@@ -52,7 +53,6 @@ export default {
 // Import Bulma's core
 @import '~bulma/sass/utilities/_all';
 // Set your colors
-$primary: #504453;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099ff;
 $twitter-invert: findColorInvert($twitter);

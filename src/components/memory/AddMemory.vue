@@ -56,6 +56,14 @@
 
   <b-field grouped position="is-right">
 
+    <b-field>
+      <b-field>
+        <button class="button is-primary" @click="alertCustom">
+          Record
+        </button>
+      </b-field>
+    </b-field>
+
     <b-field class="file">
       <b-upload v-model="file">
         <a class="button is-primary">
@@ -119,7 +127,17 @@ export default {
     },
     goSearch() {
       this.$router.push('/memories');
-    }
+    },
+    alertCustom() {
+    this.$dialog.alert({
+        title: 'Recording',
+        message: 'Recording in progress...',
+        confirmText: 'Stop!'
+    })
+}
   }
 }
 </script>
+<style scoped>
+section {backgroundColor: coral};
+</style>
