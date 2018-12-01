@@ -1,8 +1,8 @@
 <template>
   <div>
-    <AddMemory :darkTextColor="darkTextColor"></AddMemory>
+    <ViewMemory :darkTextColor="darkTextColor"></ViewMemory>
     <p>
-      Homepage components go here
+      TablePage components go here
     </p>
   </div>
 </template>

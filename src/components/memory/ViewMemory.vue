@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title" :style="darkTextColor">
-      Memory table page componet
+      ViewMemory page componet
     </h1>
   </div>
 </template>

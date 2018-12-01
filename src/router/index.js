@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from '@/components/HomePage'
-import MemoriesPage from '@/components/MemoriesPage'
+import TablePage from '@/components/TablePage'
+import SearchPage from '@/components/SearchPage'
 
 Vue.use(Router)
 
@@ -14,8 +15,13 @@ const router = new Router({
     },
     {
       path: '/memories',
-      name: 'Memories',
-      component: MemoriesPage
+      name: 'TablePage',
+      component: TablePage
+    },
+    {
+      path: '/search',
+      name: 'SearchPage',
+      component: SearchPage
     }
   ]
 })

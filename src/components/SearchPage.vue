@@ -1,8 +1,8 @@
 <template>
   <div>
-    <AddMemory :darkTextColor="darkTextColor"></AddMemory>
+    <SearchMemory :darkTextColor="darkTextColor"></SearchMemory>
     <p>
-      Homepage components go here
+      SearchPage components go here
     </p>
   </div>
 </template>
