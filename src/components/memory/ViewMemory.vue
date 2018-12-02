@@ -7,7 +7,15 @@
           </button>
         </p>
       </b-field>
-      <br />
+      <b-field grouped position="is-centered">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Browse Memories!
+          </h1>
+        </div>
+      </div>
+    </b-field>
       <b-field grouped position="is-left">
         <p class="control">
           <button class="button is-primary" @click="goAdd">
@@ -93,7 +101,7 @@
         },
         methods: {
           goAdd() {
-            this.$router.push('/');
+            this.$router.push('/add');
           },
           goFind() {
             this.$router.push('/search');

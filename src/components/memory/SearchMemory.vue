@@ -90,7 +90,7 @@ export default {
         'Jazz Game',
         'New Job',
         'Funeral',
-        'Code',
+        'Programming',
         'Learning',
         'Fight Night',
         'Car Accident',
