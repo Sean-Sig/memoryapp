@@ -2,8 +2,16 @@
     <section>
       <b-field grouped position="is-right">
         <p class="control">
+          <button class="button is-primary" @click="goFind">
+            Search Topic...
+          </button>
+        </p>
+      </b-field>
+      <br />
+      <b-field grouped position="is-left">
+        <p class="control">
           <button class="button is-primary" @click="goAdd">
-            Add New  Entry
+            Add New
           </button>
         </p>
       </b-field>
@@ -20,6 +28,7 @@
             <b-tab-item label="Selected">
               <p>
                 <br>
+                Topic: Hawaii<br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
                 Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
@@ -85,6 +94,9 @@
         methods: {
           goAdd() {
             this.$router.push('/');
+          },
+          goFind() {
+            this.$router.push('/search');
           }
         }
     }

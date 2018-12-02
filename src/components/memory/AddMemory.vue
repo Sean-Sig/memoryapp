@@ -138,6 +138,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-section {backgroundColor: coral};
-</style>
