@@ -42,7 +42,7 @@
     {{ radio }}
   </p>
   <b-field label="Select a date">
-    <b-datepicker placeholder="Click to select..." icon="calendar-today">
+    <b-datepicker  placeholder="Click to select..." icon="calendar-today">
     </b-datepicker>
   </b-field>
 
@@ -114,6 +114,7 @@ export default {
         message: `Memory Cancelled!`,
         type: 'is-danger'
   })
+  this.memory = '';
     },
     saveAlert() {
       this.$toast.open({
