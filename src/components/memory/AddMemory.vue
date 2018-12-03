@@ -139,3 +139,11 @@ export default {
   }
 }
 </script>
+
+
+
+<style>
+.content {
+  font-size: 25px;
+}
+</style>
