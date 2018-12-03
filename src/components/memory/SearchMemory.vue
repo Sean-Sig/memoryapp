@@ -16,7 +16,7 @@
       </div>
     </div>
   </b-field>
-
+<!-- HELLLLOOOO -->
   <p class="content"><b>Selected:</b> {{ selected }}</p>
 <b-field>
     <b-autocomplete
