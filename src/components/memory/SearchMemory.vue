@@ -16,7 +16,7 @@
       </div>
     </div>
   </b-field>
-
+<!-- Test -->
   <p class="content"><b>Selected:</b> {{ selected }}</p>
 <b-field>
     <b-autocomplete
@@ -72,8 +72,6 @@
                 </div>
             </div>
         </b-modal>
-
-
   </div>
 </template>
 
