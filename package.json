@@ -9,7 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "buefy": "^0.6.2",
+    "buefy": "^1.0.0",
     "color-js": "^1.0.4",
     "express": "^4.16.4",
     "node-sass": "^4.10.0",
