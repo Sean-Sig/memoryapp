@@ -1,4 +1,4 @@
-# vue-memory-cs
+# vue memory app
 
 ## Project setup
 ```
