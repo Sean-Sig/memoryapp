@@ -11,7 +11,7 @@
   "dependencies": {
     "buefy": "^1.0.0",
     "color-js": "^1.0.4",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "node-sass": "^4.10.0",
     "sass-loader": "^6.0.3",
     "serve-static": "^1.13.2",
